@@ -556,22 +556,21 @@
 }
 .container__best-tours-img-text {
     position: relative;
- 
+    margin-top: 30px;
     overflow: hidden;
     
 }
 
 .container__best-tours-img {
    
-    transform: scale(1);
+    
       width: 300px;
-    padding-top: 30px;
+ 
     /* background-size: contain; */
     /* background-position: center; */
 }
 .container__best-tours-img:hover {
-
-    transform: scale(1.5);
+   animation: zoomImage ease 1.5s;
 
 }
 .container__best-tours-img-height {
