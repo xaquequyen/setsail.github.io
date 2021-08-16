@@ -1,0 +1,63 @@
+:root {
+    --black-color: #1c1c1c;
+    --main-color: #3fd0d4;
+    --text-color: #212121;
+    --skill-color: #3abdc1;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ANIMATION */
+@keyframes floatDown {
+    from {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1);
+
+    }
+}
+
+@keyframes skillBar {
+    from {
+        /* opacity: 0; */
+        transform: scaleX(0);
+    }
+    to {
+        /* opacity: 1; */
+        transform: scaleX(1);
+
+    }
+}
+@keyframes zoomImage {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+
+    }
+}
